@@ -1,0 +1,37 @@
+# CutieGen Config 💖
+bot:
+  token: "YOUR_BOT_TOKEN_HERE"
+  prefix: "!"
+  activity: "🌸 Generating cuteness..."
+  owner_id: 123456789012345678 # Your Discord ID
+
+branding:
+  name: "CutieGen"
+  footer: "CutieGen • Made by Mustakin 💎"
+  color:
+    default: 0xFFB6C1 # LightPink
+    vip: 0xDDA0DD     # Plum
+    mega: 0xFFD700    # Gold
+  thumbnail: "https://i.imgur.com/ABC123.png" # Optional cute avatar
+
+emojis:
+  success: "💖"
+  error: "💔"
+  loading: "⏳"
+  gen: "🌸"
+  ticket: "🎟"
+  admin: "👑"
+  owner: "💎"
+  close: "🔒"
+  claim: "👑"
+  delete: "🗑️"
+  vip: "🌟"
+  mega: "✨"
+
+cooldowns:
+  default: 3600 # 1 hour
+  vip: 900      # 15 mins
+  mega: 0       # unlimited
+
+paths:
+  services_dir: "./services"
